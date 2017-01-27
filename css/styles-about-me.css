@@ -22,16 +22,26 @@ h3 {
 	
 }
 
+.wrapper {
+	background-color: #ffffff;
+}
+
 .skill-html {
+		
 	float: left;
 	width: 300px;
 	
+	
 }
 
+
 .skills{
+	
 	float: left;
 	width: 150px;
 	padding: 5px 0px 5px 20px;	
+	
+	
 }
 
 .skill-css {
@@ -43,6 +53,7 @@ h3 {
 }
 
 .skill-sql {
+	clear: both;
 	float: left;
 	width: 300px;
 	padding: 30px 0px 0px 0px;
@@ -67,6 +78,7 @@ h3 {
 	margin-top: 30px;	
 	border: 1px solid #48DA23;
 	border-radius: 20px;
+	
 }
 
 .skill-bar-html:after {
@@ -84,6 +96,7 @@ h3 {
 }
 
 .skill-bar-css {
+
 	background-color: #26B3FA;
 	height: 38px;
 	width: 300px;
@@ -118,13 +131,13 @@ h3 {
 }
 
 .skill-bar-sql:after {
-	content: '60%';
+	content: '80%';
 	color: #ffffff;
 	font-size: 18px;
 	background-color: #FF5555;
 	position: absolute;
 	height: 28px;
-	width: 14%;	
+	width: 18%;	
 	border-radius: 20px;
 	text-align: center;
 	padding: 5px;

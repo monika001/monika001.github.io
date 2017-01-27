@@ -82,7 +82,7 @@ nav li a:active {
 
 
 
-section.main_content {
+.main_content {
 	width: 960px;
 	height: 100%;
 	background-color: #ffffff;
@@ -93,12 +93,15 @@ section.main_content {
 
 img {
 	height: 555px;
-	width: 940px;
+	width: 960px;
 	float: right;
 	margin: 0px;
-	padding: 0px 10px;
+	padding: 0px 0px;
+	background-color: #ffffff;	
 	
 }
+
+
 
 h2 {
 	font-weight: normal;
@@ -111,6 +114,7 @@ h2 {
 }
 
 .footer{
+	clear: both;
 	padding: 10px 0px;
 	background-color: #b0a99c;	
 	text-align: center;
